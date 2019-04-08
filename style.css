@@ -1,0 +1,214 @@
+#closeBook {
+    color:white;
+    font-weight: bolder;
+    font-size: 150px;
+    text-shadow: 3px 3px black;
+}
+
+.bookTitle{
+    background-image: url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2306&q=80");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.readBook{
+    background-image: url("https://images.unsplash.com/photo-1515707743625-2f8e5fd8f8b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position-y: -200px;
+}
+.easterEgg{
+    background: #101010;
+    background-repeat: no-repeat;
+    
+}
+#eggs{
+    display: none;
+    height: 600px;
+    width: 700px;
+    margin: 100px 370px;
+}
+
+#openBook{
+    display: none;
+}
+
+
+.display-4{
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 150px;
+}
+
+#cbPara{
+    font-family: 'Josefin Slab', serif;
+    font-size: 26px;
+}
+
+#authInput{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:28px;
+    text-align: center;
+    box-shadow: 3px 3px black;
+}
+
+.container {
+  border: 0px;
+  border: hidden;
+}
+
+.container-fluid {
+  position: absolute;
+  z-index: 10;
+}
+
+.jumbotron {
+  margin: 0px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: transparent;
+  padding: 40px 100px 30px 115px;
+  text-align: center;
+  position: relative;
+
+}
+
+.sbar {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#displayP {
+    color: black;
+    font-weight: bold;
+    height: 65%;
+    width: 730px;
+    overflow: auto;
+    cursor: pointer;
+    padding-left: 290px;
+    padding-right: 50px;
+    margin-top: 40px;
+    font-family: 'Josefin Slab', serif;
+
+}
+
+
+#display {
+    color: black;
+    font-weight: bold;
+    height: 65%;
+    width: 700px;
+    overflow: auto;
+    margin-top: 40px;
+    padding-left: 320px;
+    padding-right: 50px;
+    font-family: 'Josefin Slab', serif;
+}
+
+#page2 {
+    float: right;
+    overflow: auto;
+    height: 65%;
+    width: 700px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    padding-right: 75px;
+    padding-left: 200px;
+    margin-top: 40px;
+    margin-right: 230px;
+}
+
+#titleFront {
+    margin: 189px 5px 5px 35px;
+    color: white;
+    
+}
+
+#obTitle {
+    text-align: left;
+    font-size: 60px;
+    float:left;
+    margin-top: -25px;
+    padding-left: 40px;
+    color: white;
+
+}
+
+#obPara {
+   display: none;
+}
+
+#searchDiv {
+    position: relative;
+    margin: 75px auto 0;
+    width: 600px;
+}
+
+#authInput2 {
+  width: 500px;
+}
+
+#myDude {
+    position: absolute;
+    left: 52.5%;
+    top: 473px;
+}
+
+#myDude2 {
+    position: absolute;
+    right: 45px;
+    bottom: 0;
+}
+
+#pageOneHead {
+float: left;
+font-family: 'Josefin Slab', serif;
+font-size: 20px;
+color: slategray;
+position: absolute;
+left: 11%;
+top: 28%;
+}
+
+#pageTwoHead {
+    float: right;
+    font-family: 'Josefin Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: slategray;
+    right: 10%;
+    top: 27%;
+    
+}
+
+#obJumbo {
+    padding: 10px 100px 90px 0px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: url("https://img.icons8.com/small/16/000000/pen.png");
+    background-repeat: no-repeat; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent; 
+  }
+
+  #easterEgg{
+      background: cadetblue;
+      opacity: .2;
+      border: transparent;
+      padding: 32px 6px;
+      height: 10px;
+      float: right;
+      margin-top: 145px;
+      margin-right: 408px;
+  }
